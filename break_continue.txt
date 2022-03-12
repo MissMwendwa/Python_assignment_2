@@ -1,0 +1,26 @@
+The main difference between both the statements is that when break keyword comes,
+ it terminates the execution of the current loop and passes the control over the next loop or main body, whereas when continue keyword is encountered, 
+it skips the current iteration and executes the very next iteration in the loop
+
+#Demonstration of Python break statement 
+#using for loop 
+#loop from 0 to 9 
+for i in range(10): 
+       # if i is equal to 6 
+       # break statement terminate the current working loop   
+       if i == 6: 
+             break 
+       else: 
+              print (i)
+
+#Demonstration of Python continue statement 
+#using for loop 
+#loop from 0 to 9 
+for i in range(10): 
+       # if i is equal to 2 
+       # continue statement will skip   
+       #and start executing next iteration 
+       if i == 2: 
+             continue 
+        else: 
+              print (i)
